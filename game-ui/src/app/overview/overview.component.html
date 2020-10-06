@@ -1,0 +1,6 @@
+<div class="grid">
+  <app-statistics
+    *ngFor="let character of characters | async"
+    [statistics]="character"
+  ></app-statistics>
+</div>
