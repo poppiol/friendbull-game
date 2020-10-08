@@ -1,0 +1,36 @@
+<div class="line">
+  <span class="statistic-name">Level</span>
+  <span class="statistic-value">{{ statistics.level}} </span>
+</div>
+<div class="line">
+  <span class="statistic-name">Health</span>
+  <span class="statistic-value">{{ statistics.health}} </span>
+  <div class="progress">
+    <div class="progress-bar-health" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
+         [ngStyle]="{'width':statistics.health+'%'}"></div>
+  </div>
+</div>
+
+<div class="line">
+  <span class="statistic-name">XP</span>
+  <span class="statistic-value">{{ statistics.xp}}</span>
+  <div class="progress">
+    <div class="progress-bar-xp" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
+         [ngStyle]="{'width':statistics.xp+'%'}"></div>
+  </div>
+</div>
+<div class="line">
+  <span class="statistic-name">PvP</span>
+  <span class="statistic-value">{{ statistics.is_in_pvp_area==1 ? 'TAK' : 'NIE'}}</span>
+</div>
+<div class="line">
+  <span class="statistic-name">Armor</span>
+  <span class="statistic-value">220</span>
+</div>
+<div class="line">
+  <span class="statistic-name">Damage</span>
+  <span class="statistic-value">10 - 30</span>
+</div>
+
+
+

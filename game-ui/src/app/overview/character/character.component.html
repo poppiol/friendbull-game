@@ -1,0 +1,31 @@
+<div class="overview-container">
+  <div class="row">
+    <div class="col-6" *ngIf="character | async as character">
+      <table>
+        <tbody>
+        <tr>
+          <td>
+            <div class="character-img">
+              <img class="avatar-img"
+                   src="{{character.gender=='Male'?'https://vignette.wikia.nocookie.net/wowwiki/images/1/1e/3D-Orc.png/revision/latest?cb=20090804213114' : 'https://wow.zamimg.com/modelviewer/live/webthumbs/npc/195/4035.png'}}"
+                   alt="avatar">
+            </div>
+            <div class="character-name">
+              <a> {{character.name}}</a>
+            </div>
+          </td>
+          <td>
+            <div class="character-statistics">
+              <app-statistics [statistics]="character"></app-statistics>
+            </div>
+
+          </td>
+        </tr>
+        </tbody>
+      </table>
+
+    </div>
+    <div class="col-6">
+    </div>
+  </div>
+</div>

@@ -1,5 +1,5 @@
 import {Component, Input, OnInit} from '@angular/core';
-import {Character} from '../../models/character';
+import {Character} from '../../../models/character';
 import {Observable} from 'rxjs';
 
 @Component({

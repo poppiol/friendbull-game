@@ -1,0 +1,33 @@
+.line{
+  margin-bottom: 5px;
+  width: 170px;
+  position: relative;
+  display: block;
+}
+
+.statistic-name{
+  text-align: left;
+  margin-left: 10px;
+}
+
+.statistic-value{
+  position: relative;
+  text-align: right;
+  float: right;
+  margin-right: 10px;
+}
+
+.progress-bar-health{
+  background-color: #7e0808;
+}
+.progress-bar-xp{
+  background-color: #dda901;
+}
+
+.progress{
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 6px;
+}
+
+

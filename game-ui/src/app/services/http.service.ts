@@ -12,4 +12,8 @@ export class HttpService {
   getCharacters(): Observable<Character[]>{
     return of(characters);
   }
+
+  getCharacter(): Observable<Character>{
+    return of(characters[0]);
+  }
 }

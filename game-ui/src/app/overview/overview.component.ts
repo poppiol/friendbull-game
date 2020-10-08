@@ -10,13 +10,10 @@ import {Observable} from 'rxjs';
 })
 export class OverviewComponent implements OnInit {
 
-  characters: Observable<Character[]>;
-
-  constructor(private http: HttpService) {
+  constructor() {
   }
 
   ngOnInit(): void {
-    this.characters = this.http.getCharacters();
   }
 
 }

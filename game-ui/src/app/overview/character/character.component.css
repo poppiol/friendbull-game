@@ -1,0 +1,21 @@
+.character-img img {
+  max-height: 300px;
+  max-width: 210px;
+}
+
+.character-name {
+  margin-top: 10px;
+  background-color: bisque;
+  text-align: center;
+  font-weight: bold;
+  font-family: Calibri;
+  font-size: 20px;
+}
+
+.character-statistics {
+  background-color: aqua;
+}
+
+td{
+  vertical-align: top;
+}
