@@ -14,6 +14,7 @@ export class HttpService {
   }
 
   getCharacter(): Observable<Character>{
+    console.log(characters[0]);
     return of(characters[0]);
   }
 }
